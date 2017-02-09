@@ -1,5 +1,4 @@
 
-// test comment to check git comment
 // Dependencies
 var restful = require('node-restful');
 var mongoose = restful.mongoose;

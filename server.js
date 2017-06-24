@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 // MongoDB
 
-mongoose.connect(process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://chirag80:NId1cbmM0JIixdYllTL5U0PjLqCd9YWCzHHSpPLT067Lf8XyM0mFo44iXCdHSvvvzRu4tEp9aHjyixlp204XCg==@chirag80.documents.azure.com:10250/?ssl=true');
+mongoose.connect(process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost/products-demo');
 // mongoose.connection.on('error', function(){});
 
 // Express
